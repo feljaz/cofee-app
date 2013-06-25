@@ -1,0 +1,744 @@
+/* reset */
+
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+body{
+    background:url(../img/body.png);
+    font-size: 1em;
+
+    background-color: #400000;
+}
+.titulo{
+    display: inline-block; 
+    margin-left: -8px;
+    background: url(../img/titulo.png);
+}
+
+.cuadro-amarillo{
+    display: inline-block;
+    background: url(../img/cuadroamarillo.png);
+}
+.huevo{
+    display: inline-block;
+    background: url(../img/huevo.png);
+}         
+.cuadro-naranja{
+    display: inline-block;
+    background: url(../img/cuadronaranja.png);
+}
+.botellas{
+    display: inline-block;
+    background: url(../img/botellas.png);
+}   
+.cuadro-verde{
+    display: inline-block;
+    background: url(../img/cuadroverde.png);
+}
+.taza{
+    display: inline-block;
+    background: url(../img/taza.png);
+}         
+.cuadro-testimonios{
+    display: inline-block;
+    background: #f4e5dc;
+}
+.testimonio{
+    display: inline-block;
+    background: url(../img/testimonio.png);
+} 
+.area-redessociales{
+    display: inline-block;
+    background: url(../img/compartir.png);
+}
+.menu{
+    display: inline-block;
+    background: url(../img/menu.png);
+}
+
+.content p{
+    display: block;
+    color:#513a2d;
+    text-align:justify;
+    text-transform: inherit;
+}
+.content h1{
+    display: block;
+    color: #af182a;
+    font-style: italic;
+}
+/*..................320..................*/
+
+@media only screen and (max-width : 320px){
+    body{
+        background-size: 20em  100%;
+    }
+    .titulo {
+        background-size: 20em 9.375em;
+        width: 20em;
+        height: 9.375em;
+    }
+
+    .imagen{
+        background-size: 18em 9.3125em;
+        width: 18em;
+        height: 9.3125em;
+        margin-left: 0.5em;
+        margin-top: -2.625em;
+    }                     
+
+    .content h1 {
+        width: 100%;
+        height: 2.25em;
+        margin-top: 12px;
+        font-size: 1.8125em;
+        text-align: center;
+    }
+
+    .content p{ 
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .cuadro-amarillo{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: -0.125em;
+        height: 9.5625em;
+        margin-left: 0.0625em;
+    }
+    .cuadro-amarillo h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-amarillo h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-amarillo p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .huevo{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+
+    }     
+    .cuadro-naranja{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        height: 9.5625em;
+        margin-left: 0.5em;
+        margin-top: -13.5625em;
+    }
+    .cuadro-naranja h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-naranja h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-naranja p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        font-weight: bold;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .botellas{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+
+    }     
+    .cuadro-verde{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: 0.5625em;
+        height: 9.5625em;
+        margin-left: 0.0625em;
+    }
+    .cuadro-verde h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-verde h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-verde p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        font-weight: bold;
+        margin: 1.0625;
+        margin-top: 0.0625em;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .taza{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+    }         
+    .cuadro-testimonios{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: -0.125em;
+        height: 9.5625em;
+
+        margin-left: 0.5em;
+    }
+    .testimonio{
+        background-size: 1.5em 1.5em;
+        width: 1.5em;
+        height: 1.5em;
+        margin-top: 1em;
+        margin-left: 0.375em;
+    } 
+    .cuadro-testimonios h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-testimonios h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.7em;
+        margin-top: 0.0625em;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-testimonios p{
+        display: block;
+        color: #513a2d;
+        font-style: italic;
+        font-size: 0.6em;
+        font-weight: bold;
+        padding: 0.875em;
+        text-align: justify;
+    }        
+    .area-redessociales{
+        background-size: 20em 2.5625em;
+        width: 20em;
+        height: 2.5625em;
+        margin-left: -0.5em;
+    }
+    .menu{
+        background-size: 20em 2.5625em;
+        width: 20em;
+        height: 2.5625em;
+        margin-left: -0.5em;
+    }
+    .menu ul{
+        list-style-type: none;
+        text-align: center;
+        margin-left: -2.375em;
+        margin-top: 0.625em;
+    }
+    .menu li{
+        display: inline;
+        color: #6f594d;
+        text-transform: uppercase;
+        font-size: 0.7125em;
+        font-weight: bold;
+        padding: 0em;
+    }
+}
+/*..............321 and 480..........................*/
+
+@media only screen and (min-width : 321px) and (max-width :480px){
+
+    body{
+        background-size: 20em  100%;
+    }
+    .titulo {
+        background-size: 20em 9.375em;
+        width: 20em;
+        height: 9.375em;
+    }
+    .imagen{
+        background-size: 18em 9.3125em;
+        width: 18em;
+        height: 9.3125em;
+        margin-left: 0.5em;
+        margin-top: -2.625em;}                     
+
+    .content h1 {
+        width: 100%;
+        height: 2.25em;
+        margin-top: 12px;
+        font-size: 1.8125em;
+        text-align: center;}
+
+
+    .content p{ 
+        padding-left: 1em;
+        padding-right: 1em; }                   
+
+
+    .cuadro-amarillo{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: -0.125em;
+        height: 9.5625em;
+        margin-left: 0.0625em;
+    }
+    .cuadro-amarillo h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-amarillo h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-amarillo p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .huevo{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+
+    }     
+    .cuadro-naranja{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        height: 9.5625em;
+        margin-left: 0.5em;
+        margin-top: -13.5625em;
+    }
+    .cuadro-naranja h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-naranja h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-naranja p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        font-weight: bold;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .botellas{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+
+    }     
+    .cuadro-verde{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: 0.5625em;
+        height: 9.5625em;
+        margin-left: 0.0625em;
+    }
+    .cuadro-verde h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-verde h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-verde p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.5em;
+        font-weight: bold;
+        margin: 1.0625;
+        margin-top: 0.0625em;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .taza{
+        background-size: 7.5em 3.75em;
+        width: 7.5em;
+        height: 3.75em;
+        margin-left: 0.75em;
+
+    }         
+    .cuadro-testimonios{
+        background-size: 9.0625em 9.5625em;
+        width: 9.0625em;
+        margin-top: -0.125em;
+        height: 9.5625em;
+        margin-left: 0.5em;
+    }
+    .testimonio{
+        background-size: 1.5em 1.5em;
+        width: 1.5em;
+        height: 1em;
+        margin-top: 1.5em;
+        margin-left: 0.375em;
+    } 
+    .cuadro-testimonios h1{
+        display: block;
+        color: #af182a;
+        font-size: 0.8em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-testimonios h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.7em;
+        margin-top: 0.0625em;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-testimonios p{
+        display: block;
+        color: #513a2d;
+        font-style: italic;
+        font-size: 0.6em;
+        font-weight: bold;
+        padding: 0.875em;
+        text-align: justify;
+    }        
+    .area-redessociales{
+        background-size: 20em 2.5625em;
+        width: 20em;
+        height: 2.5625em;
+        margin-left: -0.5em;
+    }
+    .menu{
+        background-size: 20em 2.5625em;
+        width: 20em;
+        height: 2.5625em;
+        margin-left: -0.5em;
+    }
+    .menu ul{
+        list-style-type: none;
+        text-align: center;
+        margin-left: -2.375em;
+        margin-top: 0.625em;
+    }
+    .menu li{
+        display: inline;
+        color: #6f594d;
+        text-transform: uppercase;
+        font-size: 0.7125em;
+        font-weight: bold;
+        padding: 0.2em;
+    }
+}
+/*........................480 and 800..................*/
+
+@media only screen and (min-width : 480px) and (max-width :800px){
+
+    body{
+        background-size: 30em 50em;
+    }
+    .titulo {
+        background-size: 30em 12.9375em;
+        width: 30em;
+        height: 12.9375em;
+    }
+
+    .imagen{
+        background-size: 434px 244px;
+        width: 27.125em;
+        height: 15.25em;
+        margin-left: 1.375em;
+        margin-top: -3.875em;}
+
+
+    .content h1 {
+        width: 100%;
+        height: 2.25em;
+        margin-top: 12px;
+        font-size: 2.8125em;
+        text-align: center;}
+
+    .content p{ 
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1.25em;}
+
+    .cuadro-amarillo{
+        background-size: 12.5em 13.125em;
+        width: 12.5em;
+        margin-top: 0.125em;
+        height: 13.125em;
+        margin-left: 1.0625em;
+    }
+    .cuadro-amarillo h1{
+        display: block;
+        color: #af182a;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-amarillo h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        margin-top: 1px;
+        font-weight: bold;
+        margin-left: 1.4em;
+        text-align: justify;
+    }
+    .cuadro-amarillo p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        text-align: justify;
+    }
+    .huevo{
+        background-size: 10.3125em 4.8125em;
+        width: 10.3125em;
+        height: 4.8125em;
+        margin-left: 1.0625em;
+
+    }   
+    .cuadro-naranja{
+        background-size: 12.5em 13.125em;
+        width: 12.5em;
+        height: 13.125em;
+        margin-left: 14.25em;
+        margin-left: 1.5em;
+    }
+    .cuadro-naranja h1{
+        display: block;
+        color: #af182a;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-naranja h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        margin-top: 1px;
+        font-weight: bold;
+        margin-left: 1.4em;
+        text-align: justify;
+    }
+    .cuadro-naranja p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 1.0625em;
+        margin-top: 0.0625em;
+        text-align: justify;
+    }
+    .botellas{
+        background-size: 10.3125em 4.8125em;
+        width: 10.3125em;
+        height: 4.8125em;
+        margin-left: 1.0625em;
+
+    }  
+    .cuadro-verde{
+        background-size: 12.5em 13.125em;
+        width: 12.5em;
+        margin-top: 1.0625em;
+        height: 13.125em;
+        margin-left: 1.0625em;
+    }
+    .cuadro-verde h1{
+        display: block;
+        color: #af182a;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-verde h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        margin-top: 1px;
+        font-weight: bold;
+        margin-left: 1.4em;
+        text-align: justify;
+    }
+    .cuadro-verde p{
+        display: block;
+        color: #513a2d;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 1.0625em;
+        margin-top: 0.0625px;
+        text-align: justify;
+    }
+    .taza{
+        background-size: 10.3125em 4.8125em;
+        width: 10.3125em ;
+        height: 4.8125em;
+        margin-left: 1.0625em;
+
+    }        
+    .cuadro-testimonios{
+        background-size: 12.5em 13.125em;
+        width: 12.5em;
+        height: 13.125em;
+
+        margin-left: 1.5em;
+    }
+    .testimonio{
+        background-size: 28px 28px;
+        width: 1.75em;
+        height: 1.75em;
+        margin-top: 2.5875em;
+        margin-left: 1em;
+    } 
+    .cuadro-testimonios h1{
+        display: block;
+        color: #af182a;
+        font-size: 1em;
+        margin-top: 0.0625em;
+        font-weight: bold;
+        margin-left: 2.4em;
+        text-align: justify;
+    }
+    .cuadro-testimonios h3{
+        display: block;
+        color: #513a2d;
+        font-size: 0.9em;
+        margin-top:0.0625em;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cuadro-testimonios p{
+        display: block;
+        color: #513a2d;
+        font-style: italic;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 0.875em;
+        text-align: justify;
+    }                
+    .area-redessociales{
+        background-size: 30em 2.5625em;
+        width: 30em;
+        height: 2.5625em;
+        margin-left: -0.5em;
+    }
+    .menu{
+        background-size: 30em 60px;
+        width: 30em;
+        height: 3.75em;
+        margin-left: -0.5em;
+    }
+    .menu ul{
+        list-style-type: none;
+        text-align: center;
+        margin-left: -2.8125em;
+        margin-top: 1.25em;
+    }
+    .menu li{
+        display: inline;
+        color: #6f594d;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        font-weight: bold;
+        padding: 0em;
+    }
+
+}
+/*........opciones menu.......*/
+.bMenuDiario{ background:#f7ba05;}
+.bEspec{ background:#f26700;}
+.bCater{background:#98C618;}
+.oculto{}
+.MO{}
+.demo {
+    float: right;
+    height: 350px;
+    width: 300px;
+    border: 6px outset #999999;
+    background-color: #CCCCCC;
+    padding: 20px;
+}

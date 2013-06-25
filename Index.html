@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mobile App</title>
+
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no,
+              initial-scale=1,
+              maximum-scale=1,
+              minimum-scale=1,
+              width=device-width,
+              height=device-height,
+              target-densitydpi=device-dpi" />
+
+        <link href="css/principal.css" rel="stylesheet" type="text/css" media="screen"/>
+
+    </head>
+    <body>
+
+        <div id="oHome" class="oculto">
+            <div class="titulo"></div>
+
+            <div href="#oMenuDiario" class="cuadro-amarillo MO">
+                <h1>MENÚ DEL DÍA</h1>
+                <div class="huevo"></div>
+                <h3>Rica comida</h3>
+                <p>Disfruta la comida
+                    que ofrece nuestro
+                    Café
+                </p>
+            </div>
+            <div href="#oEspec" class="cuadro-naranja MO">
+                <h1>ESPECIALIDADES</h1>
+                <div class="botellas"></div>
+                <h3>Rica comida</h3>
+                <p>Disfruta la comida
+                    que ofrece nuestro
+                    Café
+                </p>
+            </div>
+
+            <div href="#oCate" class="cuadro-verde MO">
+                <h1>CATERING</h1>
+                <div class="taza"></div>
+                <h3>Rica comida</h3>
+                <p>Disfruta la comida
+                    que ofrece nuestro
+                    Café
+                </p>
+            </div>
+            <div class="cuadro-testimonios">
+                <div class="testimonio"><h1>TESTIMONIALES</h1></div>
+
+                <p>Bueno, yo vine a este lugar
+                    y desearía no irme, la comida es
+                    lo mejor que he probado
+                </p>
+                <h3>Bryan, RicaComida.com</h3>
+            </div>
+        </div>
+        <div id="oMenuDiario" class="content bMenuDiario oculto" style="display: none;">
+            <h1>MENÚ DEL DÍA</h1>
+            <img class="imagen" src='img/huevo.png'></img>
+         
+                <p>Desayuno: *Gallo pinto, huevo frito, salchichón, natilla,queso y tortilla.
+                *Una taza de café negro.</p>
+                <p> Almuerzo: *Casado de bistec, ensalada rusa, frijoles, papas fritas.
+                *Un vaso de fresco natural.</p>
+                <p>Cena: *Arroz blanco, pollo en salsa,ensalada de verduras, frijoles, papas fritas.
+                 *Un vaso de fresco natural.</p>
+          
+        </div>
+        <div id="oEspec" class="content bEspec oculto" style="display: none;">
+            <h1>ESPECIALIDADES</h1>
+            <img class="imagen" src='img/botellas.png'></img>
+
+                <p>Las pastas italianas: raviolis, espaguetis, tagliatelles, gnocchis, penne, farfalle...
+                    Se saborean a diario y, sobre todo, al dente.
+                    Una especialidad italiana: ¡los espagueti a la carbonara!
+                    Con una mezcla de nata líquida, huevos crudos y beicon.</p>   
+        </div>
+
+        <div id="oCate" class="content bCater oculto" style="display: none;">
+            <h1> SERVICIOS </h1>
+            <img class="imagen"  src='img/taza.png'></img>
+
+            <p>Celebrar un evento en los locales de Cafe & Restaurant es muy fácil. Tanto las tabernas como el restaurante
+                ofrecen la posibilidad de disfrutar de menús personalizados que tratamos
+                de adaptar a todos los gustos y bolsillos,así como de reservar espacios en exclusiva
+                para cualquier tipo de celebración.</p>
+        </div>
+        <div class="area-redessociales"></div>
+           <div class="menu">
+            <ul>
+                <li href="#oHome" class='MO'>HOME</li>
+                <li href="#oMenuDiario" class='MO'>MENÚ DEL DÍA</li>
+                <li href="#oEspec" class='MO'>ESPECIALIDADES</li>
+                <li href="#oCate" class='MO' id="catering">CATERING</li>         
+            </ul> 
+        </div>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
